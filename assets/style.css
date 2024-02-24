@@ -1,0 +1,26 @@
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+}
+.navbar{
+    background: none;
+    z-index: 99;
+}
+.videobox{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.videobox video{
+    width: 100%;
+}
+.banner-text {
+    z-index: 9999999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+.banner-text h1 {
+    font-size: 50px;
+}
